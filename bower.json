@@ -1,0 +1,36 @@
+{
+  "name": "backbone-required-attributes",
+  "main": "backbone-required-attributes.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ubiqua/backbone-required-attributes",
+  "authors": [
+    "Diego Castillo <diegocasmo@gmail.com>"
+  ],
+  "description": "A simple Backbone view helper to enforce specific view constructor parameters.",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": ">= 1.0.0",
+    "underscore": ">= 1.4.4"
+  },
+  "devDependencies": {
+    "jquery": "1.8.3",
+    "jasmine": "~2.3.4"
+  }
+}
